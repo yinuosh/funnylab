@@ -1,0 +1,15 @@
+{
+  "name": "FunnyLab",
+  "version": "1.0.0",
+  "description": "TweeVee is a lightweight HTML5+javascript engine for interactive videos. You can create a branching movie in the style of [Black Mirror: Bandersnatch](https://www.youtube.com/watch?v=VNw9DAwp2Kk) starting from Twee files exported from the popular hypertext editor Twine. The movies are meant to be played via browser.\r TweeVee is basically a single, easily customizable javascript file. It uses no external libraries except for jquery.",
+  "main": "engine.demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^13.0.2"
+  }
+}
