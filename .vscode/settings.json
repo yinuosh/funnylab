@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/c09fcbfb-46e2-4715-ba0f-de0ad2e9decf/resourceGroups/appsvc_linux_centralus_basic/providers/Microsoft.Web/sites/ivedio",
+    "appService.deploySubpath": "."
+}
