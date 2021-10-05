@@ -9,9 +9,9 @@ var AUTOCHOICE = true;
 //allows players to pause the video
 var VIDEO_PAUSE = true;
 //allows pausing when the choices are on
-var PAUSE_ON_CHOICE = false;
+var PAUSE_ON_CHOICE = true;
 //allows play pause by clicking on the video
-var PAUSE_ON_CLICK = false;
+var PAUSE_ON_CLICK = true;
 //if true choices are rendered in a table, otherwise it's divs
 var TABLE = true;
 //choices panels appears instantly or slides up
