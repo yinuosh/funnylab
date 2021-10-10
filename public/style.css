@@ -56,7 +56,7 @@ color: white;
 
 
 #choicesContainer {
-    font-size:30px;
+    font-size:20px;
     width: 100%; 
     height: 160px;
     position: absolute;
@@ -107,6 +107,16 @@ border: 0;
 .tableChoice, .tableChoices tbody, .tableChoices tr {
     border: none;
     border-spacing: 0px;
+}
+
+.tableChoices th{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.passageLink, .inactiveLink{
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 

@@ -614,7 +614,7 @@ function parseTwee(data) {
             print(">>> " + id);
             //everything outside of the header is body
             var txt = arr[i].replace(header[0], "");
-
+            print("\t>>> " + txt);
             var room = "";
             //room is in the tag field
             var roomArr = header[1].match(/\[(.*?)\]/);
@@ -784,7 +784,7 @@ function getChoices(txt) {
             var l = link[1].split("|");
 
             var linkText = l[0];
-
+            print("choice: " + linkText);
             if (l.length == 1) {
                 //passage and link text are the same
                 var passage = linkText.replace(/^\s+|\s+$/g, "");
